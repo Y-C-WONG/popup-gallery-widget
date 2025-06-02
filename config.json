@@ -1,0 +1,280 @@
+{
+  "gallery": {
+    "title": "My Photo aGallery",
+    "description": "A beautiful collection of memorable moments",
+    "settings": {
+      "height": "80vh",
+      "maxHeight": "800px",
+      "minHeight": "400px",
+      "heightMode": "responsive"
+    },
+    "images": [
+      {
+        "id": "img001",
+        "thumbnail": "https://via.placeholder.com/180x180/FF6B6B/FFFFFF?text=Sunset",
+        "fullsize": "https://via.placeholder.com/800x600/FF6B6B/FFFFFF?text=Beautiful+Sunset",
+        "alt": "Beautiful sunset over mountains",
+        "caption": "Captured during our hiking trip in the Rocky Mountains"
+      },
+      {
+        "id": "img002",
+        "thumbnail": "https://via.placeholder.com/180x180/4ECDC4/FFFFFF?text=City",
+        "fullsize": "https://via.placeholder.com/800x600/4ECDC4/FFFFFF?text=City+Skyline",
+        "alt": "City skyline at night",
+        "caption": "Downtown cityscape with illuminated skyscrapers"
+      },
+      {
+        "id": "img003",
+        "thumbnail": "https://via.placeholder.com/180x180/45B7D1/FFFFFF?text=Ocean",
+        "fullsize": "https://via.placeholder.com/800x600/45B7D1/FFFFFF?text=Ocean+View",
+        "alt": "Ocean waves crashing on shore",
+        "caption": "Pacific coast during golden hour"
+      },
+      {
+        "id": "img004",
+        "thumbnail": "https://via.placeholder.com/180x180/F7DC6F/FFFFFF?text=Forest",
+        "fullsize": "https://via.placeholder.com/800x600/F7DC6F/FFFFFF?text=Forest+Path",
+        "alt": "Forest path in autumn",
+        "caption": "Autumn colors in the national park"
+      },
+      {
+        "id": "img005",
+        "thumbnail": "https://t3.ftcdn.net/jpg/11/87/43/66/240_F_1187436600_QnISbK6lgswg8vADJtyGDAHxQXjyIC0X.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/11/87/43/66/1000_F_1187436600_QnISbK6lgswg8vADJtyGDAHxQXjyIC0X.jpg",
+        "alt": "Snow-capped mountain peak",
+        "caption": "View from the summit at sunrise"
+      },
+      {
+        "id": "img006",
+        "thumbnail": "https://t3.ftcdn.net/jpg/11/87/43/66/240_F_1187436612_dVLdbtZIGadEJdFmCytJTMTNPG2IbeYx.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/11/87/43/66/1000_F_1187436612_dVLdbtZIGadEJdFmCytJTMTNPG2IbeYx.jpg",
+        "alt": "Calm lake with mountain reflection",
+        "caption": "Mirror-like reflections on a calm morning"
+      },
+      {
+        "id": "img007",
+        "thumbnail": "https://t4.ftcdn.net/jpg/11/87/43/65/240_F_1187436544_7Gvk6cM6Uj6XjuffupeEFXlnw8NbFtvu.jpg",
+        "fullsize": "https://as2.ftcdn.net/v2/jpg/11/87/43/65/1000_F_1187436544_7Gvk6cM6Uj6XjuffupeEFXlnw8NbFtvu.jpg",
+        "alt": "Desert sand dunes",
+        "caption": "Sahara desert expedition"
+      },
+      {
+        "id": "img008",
+        "thumbnail": "https://t3.ftcdn.net/jpg/11/87/43/62/240_F_1187436201_pudFavpoeRiAnuQz0p6OirCmgbeoXnBF.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/11/87/43/62/1000_F_1187436201_pudFavpoeRiAnuQz0p6OirCmgbeoXnBF.jpg",
+        "alt": "Tropical waterfall",
+        "caption": "Hidden waterfall in the rainforest"
+      },
+      {
+        "id": "img009",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img038",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img037",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img036",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img035",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img034",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img033",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img032",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img031",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img030",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img029",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img028",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img027",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img026",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img025",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img024",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img023",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img022",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img021",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img020",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img019",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img018",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img017",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img016",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img015",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img014",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img013",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img012",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+	  {
+        "id": "img011",
+        "thumbnail": "https://t3.ftcdn.net/jpg/09/94/34/28/240_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/09/94/34/28/1000_F_994342853_bvZxe6SLRjwMCRbfPGqWfPbljB5VaZS1.jpg",
+        "alt": "Northern lights display",
+        "caption": "Aurora Borealis in Iceland"
+      },
+      {
+        "id": "img010",
+        "thumbnail": "https://t3.ftcdn.net/jpg/02/19/84/86/240_F_219848647_dRWZu9bw6ejvgkCPfPExycrGOaJeqBwJ.jpg",
+        "fullsize": "https://as1.ftcdn.net/v2/jpg/02/19/84/86/1000_F_219848647_dRWZu9bw6ejvgkCPfPExycrGOaJeqBwJ.jpg",
+        "alt": "Botanical garden flowers",
+        "caption": "Spring bloom at the botanical gardens"
+      }
+    ]
+  }
+}

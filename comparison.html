@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Design Comparison</title>
+    
+    <!-- Include both CSS files -->
+    <link rel="stylesheet" href="gallery-styles.css" id="original-css">
+    <link rel="stylesheet" href="gallery-styles-modern.css" id="modern-css" disabled>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .comparison-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        
+        .style-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .toggle-btn {
+            padding: 12px 24px;
+            border: 2px solid #007bff;
+            background: white;
+            color: #007bff;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .toggle-btn.active {
+            background: #007bff;
+            color: white;
+        }
+        
+        .toggle-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+        }
+        
+        .demo-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        
+        .demo-btn {
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .demo-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+        
+        .current-style {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 20px 0;
+            padding: 15px;
+            background: #e7f3ff;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .style-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        
+        .style-card h3 {
+            margin: 0 0 15px 0;
+            color: #333;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .feature-list li {
+            padding: 5px 0;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .feature-list li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .demo-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .style-toggle {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="comparison-header">
+        <h1>🎨 Gallery Design Comparison</h1>
+        <p>Toggle between the original and modern design to see the differences</p>
+        
+        <div class="current-style" id="current-style">
+            Current Style: Original Dark Theme
+        </div>
+        
+        <div class="style-toggle">
+            <button class="toggle-btn active" id="original-btn" onclick="switchStyle('original')">
+                🌙 Original Design
+            </button>
+            <button class="toggle-btn" id="modern-btn" onclick="switchStyle('modern')">
+                ✨ Modern Design
+            </button>
+        </div>
+        
+        <div class="demo-buttons">
+            <button class="demo-btn" onclick="openGallery('config.json')">
+                🖼️ Open Gallery
+            </button>
+            <button class="demo-btn" onclick="openGallery('config.json', { height: '70vh' })">
+                📐 Custom Height
+            </button>
+            <button class="demo-btn" onclick="openGallery('product-gallery-example.json')">
+                🏢 Product Gallery
+            </button>
+        </div>
+    </div>
+    
+    <div class="comparison-grid">
+        <div class="style-card">
+            <h3>🌙 Original Design</h3>
+            <ul class="feature-list">
+                <li>Dark semi-transparent overlay</li>
+                <li>Traditional popup styling</li>
+                <li>6-column grid layout</li>
+                <li>Bold shadows and effects</li>
+                <li>Classic modal appearance</li>
+            </ul>
+        </div>
+        
+        <div class="style-card">
+            <h3>✨ Modern Design</h3>
+            <ul class="feature-list">
+                <li>Clean white background</li>
+                <li>Minimal header design</li>
+                <li>5-column grid layout</li>
+                <li>Subtle backdrop blur</li>
+                <li>Matches your reference image</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Include the gallery JavaScript -->
+    <script src="gallery-core.js"></script>
+    
+    <script>
+        function switchStyle(style) {
+            const originalCSS = document.getElementById('original-css');
+            const modernCSS = document.getElementById('modern-css');
+            const originalBtn = document.getElementById('original-btn');
+            const modernBtn = document.getElementById('modern-btn');
+            const currentStyle = document.getElementById('current-style');
+            
+            if (style === 'modern') {
+                originalCSS.disabled = true;
+                modernCSS.disabled = false;
+                originalBtn.classList.remove('active');
+                modernBtn.classList.add('active');
+                currentStyle.textContent = 'Current Style: Modern Clean Design ✨';
+                currentStyle.style.background = '#e8f5e8';
+                currentStyle.style.borderColor = '#28a745';
+            } else {
+                originalCSS.disabled = false;
+                modernCSS.disabled = true;
+                originalBtn.classList.add('active');
+                modernBtn.classList.remove('active');
+                currentStyle.textContent = 'Current Style: Original Dark Theme 🌙';
+                currentStyle.style.background = '#e7f3ff';
+                currentStyle.style.borderColor = '#007bff';
+            }
+        }
+        
+        // Add visual feedback
+        window.addEventListener('load', () => {
+            console.log('🎨 Gallery Comparison Tool loaded!');
+            console.log('Toggle between styles and test the gallery');
+        });
+    </script>
+</body>
+</html>

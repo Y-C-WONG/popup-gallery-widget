@@ -1,0 +1,56 @@
+{
+  "gallery": {
+    "title": "Product Showcase",
+    "description": "Our latest product collection",
+    "settings": {
+      "height": "70vh",
+      "maxHeight": "600px",
+      "minHeight": "400px",
+      "heightMode": "fixed"
+    },
+    "images": [
+      {
+        "id": "prod001",
+        "thumbnail": "https://www.stockvault.net/data/2010/05/18/113846/thumb16.jpg",
+        "fullsize": "https://www.stockvault.net/data/2010/05/18/113846/preview16.jpg",
+        "alt": "Eco-friendly water bottle",
+        "caption": "Sustainable 1L water bottle made from recycled materials"
+      },
+      {
+        "id": "prod002",
+        "thumbnail": "https://www.stockvault.net/data/2010/10/12/115317/thumb16.jpg",
+        "fullsize": "https://www.stockvault.net/data/2010/10/12/115317/preview16.jpg",
+        "alt": "Wireless headphones",
+        "caption": "Premium noise-canceling headphones with 30-hour battery"
+      },
+      {
+        "id": "prod003",
+        "thumbnail": "https://www.stockvault.net/data/2010/05/18/113846/thumb16.jpg",
+        "fullsize": "https://www.stockvault.net/data/2010/05/18/113846/thumb16.jpg",
+        "alt": "Smart watch",
+        "caption": "Fitness tracker with heart rate monitor and GPS"
+      },
+      {
+        "id": "prod004",
+        "thumbnail": "https://www.stockvault.net/data/2010/10/12/115317/thumb16.jpg",
+        "fullsize": "https://www.stockvault.net/data/2010/10/12/115317/preview16.jpg",
+        "alt": "Portable speaker",
+        "caption": "Waterproof Bluetooth speaker with 360° sound"
+      },
+      {
+        "id": "prod005",
+        "thumbnail": "https://www.stockvault.net/data/2010/05/18/113846/thumb16.jpg",
+        "fullsize": "https://www.stockvault.net/data/2010/05/18/113846/thumb16.jpg",
+        "alt": "Laptop backpack",
+        "caption": "Ergonomic backpack with USB charging port"
+      },
+      {
+        "id": "prod006",
+        "thumbnail": "https://www.stockvault.net/data/2010/10/12/115317/thumb16.jpg",
+        "fullsize": "https://www.stockvault.net/data/2010/10/12/115317/preview16.jpg",
+        "alt": "Desk organizer",
+        "caption": "Bamboo desk organizer with wireless charging pad"
+      }
+    ]
+  }
+}
