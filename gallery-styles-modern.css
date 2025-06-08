@@ -200,24 +200,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 25px;
+    padding: 60px 25px 80px 25px; /* Top padding for close button, bottom for caption */
     box-sizing: border-box;
     overflow: hidden;
 }
 
 #pugw-fullsize-img {
-    max-width: 90%;
-    max-height: 80%;
+    max-width: calc(100% - 120px); /* Account for navigation arrows */
+    max-height: calc(100% - 40px); /* Leave space for UI elements */
+    width: auto;
+    height: auto;
     object-fit: contain;
     cursor: pointer;
     user-select: none;
     border-radius: 4px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
 }
 
 #pugw-fullsize-img.pugw-loading {
     opacity: 0.5;
+    position: relative; /* Ensure it stays centered while loading */
 }
 
 /* Navigation */
@@ -273,8 +277,8 @@
 .pugw-caption {
     position: absolute;
     bottom: 25px;
-    left: 25px;
-    right: 25px;
+    left: 50%;
+    transform: translateX(-50%);
     background: rgba(255, 255, 255, 0.95);
     color: #333;
     padding: 12px 16px;
@@ -285,7 +289,8 @@
     border: 1px solid #ddd;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    max-width: calc(100% - 50px);
+    max-width: 600px;
+    width: calc(100% - 50px);
     box-sizing: border-box;
     z-index: 10;
 }
@@ -379,16 +384,20 @@
     }
     
     #pugw-fullsize-img {
-        max-height: 70%;
+        max-width: calc(100% - 90px); /* Less padding for mobile nav buttons */
+        max-height: calc(100% - 30px);
+    }
+    
+    .pugw-fullsize-viewer {
+        padding: 50px 15px 70px 15px; /* Adjusted padding for mobile */
     }
     
     .pugw-caption {
         font-size: 13px;
         padding: 10px 12px;
         bottom: 15px;
-        left: 15px;
-        right: 15px;
         max-width: calc(100% - 30px);
+        width: calc(100% - 30px);
     }
 }
 
